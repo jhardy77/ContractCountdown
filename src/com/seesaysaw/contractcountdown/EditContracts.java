@@ -1,5 +1,10 @@
 package com.seesaysaw.contractcountdown;
 
-public class EditContracts {
+import android.app.Activity;
+
+public class EditContracts extends Activity {
+	
+	
+	
 
 }

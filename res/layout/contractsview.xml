@@ -4,41 +4,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/c1"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="" />
+        android:ems="10" >
 
-    <TextView
-        android:id="@+id/ct1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+        <requestFocus />
+    </EditText>
 
-    <TextView
-        android:id="@+id/c2"
+    <DatePicker
+        android:id="@+id/cd"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+        android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/ct2"
+    <TimePicker
+        android:id="@+id/ct"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/c3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/ct3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/Update"
